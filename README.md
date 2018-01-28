@@ -107,6 +107,6 @@ For example we have your dataset, length of dataset = 100 and 28 features
                 .....
  [f(100,1),  f(100,2), ..., f(100,28)]]
 ```
-And, we have three classes: [0, 1, 2]
+And, we have three classes: ```[0, 1, 2]```
 
 Actually in this line we are getting the probability

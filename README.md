@@ -1,9 +1,9 @@
-# Hello guys, here i want to explain some things about so called "rules extraction" from sclearn decision trees
-# We will try to extract structure of our classification tree in a form in which a person will understand that
+## Hello guys, here i want to explain some things about so called "rules extraction" from sclearn decision trees
+#### We will try to extract structure of our classification tree in a form in which a person will understand that
 
 ![](http://scikit-learn.org/stable/_images/sphx_glr_plot_iris_0013.png)
 
-# Just give me the the code!
+#### Just give me the the code!
 
 ```Python
 def tree_to_code(tree, tree_index, feature_names=range(0, 28)):
@@ -57,7 +57,7 @@ def tree_to_code(tree, tree_index, feature_names=range(0, 28)):
     print("}")
 ```
 
-# Here is the result:
+#### Here is the result:
 
 ```C++
 int ClassificationTree1(const std::vector<double> &features, double& probability)

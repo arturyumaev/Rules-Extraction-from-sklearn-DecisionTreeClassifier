@@ -39,7 +39,7 @@ def tree_to_code(tree, feature_names=range(0, 28)):
             
             """
             Normalize the value of the zero index,
-            which contains the number of objects of class 0 (DRONE) to the total number
+            which contains the number of objects of class 0 to the total number
             of objects that fall into current node.
             
             Example:

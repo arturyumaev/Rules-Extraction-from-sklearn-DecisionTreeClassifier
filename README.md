@@ -96,3 +96,5 @@ float ClassificationTree(float* features)
     }
 }
 ```
+
+#### Ok, let's try to understand how in works

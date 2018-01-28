@@ -1,7 +1,6 @@
-![](http://scikit-learn.org/stable/_images/sphx_glr_plot_iris_0013.png)
-
-
 # Hello guys, here i want to explain some thing about extraction rules from decision trees
+
+![](http://scikit-learn.org/stable/_images/sphx_glr_plot_iris_0013.png)
 
 # Just give me the the code!
 

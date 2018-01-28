@@ -98,3 +98,12 @@ float ClassificationTree(float* features)
 ```
 
 #### Ok, let's try to understand how in works
+
+For example you have your dataset, length of dataset = 100 and 28 features
+
+```
+[[f(1,1)], [], ..., []
+ [], [], ..., []
+       ...
+ [], [], ..., []]
+```

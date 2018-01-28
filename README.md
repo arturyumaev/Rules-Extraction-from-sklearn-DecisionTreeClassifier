@@ -6,7 +6,7 @@
 #### Just give me the the code!
 
 ```Python
-def tree_to_code(tree, tree_index, feature_names=range(0, 28)):
+def tree_to_code(tree, feature_names=range(0, 28)):
     nspaces = 4
     tree_ = tree.tree_
     feature_name = [
@@ -14,7 +14,7 @@ def tree_to_code(tree, tree_index, feature_names=range(0, 28)):
         for i in tree_.feature
     ]
     
-    print("int ClassificationTree" + str(tree_index) + "(const std::vector<double> &features, double& probability)")
+    print("float ClassificationTree(floqat* features)")
     print("{")
 
     def recurse(node, depth):
@@ -60,7 +60,7 @@ def tree_to_code(tree, tree_index, feature_names=range(0, 28)):
 #### Here is the result:
 
 ```C++
-int ClassificationTree1(const std::vector<double> &features, double& probability)
+float ClassificationTree(float* features)
 {
 
     if (features[24] <= 0.408988237)

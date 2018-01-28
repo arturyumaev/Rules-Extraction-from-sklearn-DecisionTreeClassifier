@@ -127,3 +127,7 @@ And, if we take 21. object and devide it into sum of objects in this node we get
 ```Python
 print("\n{}return {:0.9f};".format(indent, tree_.value[node][0][0] / sum(tree_.value[node][0])))
 ```
+
+And it will return a float number (probability)
+
+If we try to sum all objects which splitted into all splitting (fragmentaion) we will get 100, which means all our objects in dataset

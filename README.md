@@ -109,4 +109,21 @@ For example we have your dataset, length of dataset = 100 and 28 features
 ```
 And, we have three classes: ```[0, 1, 2]```
 
-Actually in this line we are getting the probability
+Actually in this line
+
+```Python
+print("\n{}return {:0.9f};".format(indent, tree_.value[node]))
+```
+
+We are getting array, for example ```[[21. 3. 15.]]```
+
+What it means?
+
+It means, that in current node 'i', we have 21 object of class 0, 3 objects of class 1 and 15 objects of class 2, 
+which hit or splitted by this node.
+
+And, if we take 21. object and devide it into sum of objects in this node we get the probability of getting an object of class 0 (here are 21. objects) in this node
+
+```Python
+print("\n{}return {:0.9f};".format(indent, tree_.value[node][0][0] / sum(tree_.value[node][0])))
+```

@@ -102,8 +102,8 @@ float ClassificationTree(float* features)
 For example you have your dataset, length of dataset = 100 and 28 features
 
 ```
-[[f(1,1)], [], ..., []
- [], [], ..., []
-       ...
- [], [], ..., []]
+[[f(1,1)]    [f(1,2)],   ..., [f(1,28)]
+ [f(2,1)]  , [f(2,1)],   ..., [f(2,28)]
+                  ...
+ [f(100,1)], [f(100,2)], ..., [f(100,28)]]
 ```

@@ -1,4 +1,5 @@
-# Hello guys, here i want to explain some thing about extraction rules from decision trees
+# Hello guys, here i want to explain some things about so called "rules extraction" from sclearn decision trees
+# We will try to extract structure of our classification tree in a form in which a person will understand that
 
 ![](http://scikit-learn.org/stable/_images/sphx_glr_plot_iris_0013.png)
 

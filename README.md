@@ -1,5 +1,5 @@
 ## Hello guys, here i want to explain some things about so called "rules extraction" from sclearn decision trees
-#### We will try to extract structure of our classification tree in a form in which a person will understand
+#### We will try to extract structure of our classification tree in a form in which a person will understand (C code)
 
 ![](https://www.simafore.com/hs-fs/hub/64283/file-15380323-png/images/rapidminer-decision-tree-personal-loan-accept.png?t=1496839460448)
 

@@ -117,7 +117,7 @@ print("\n{}return {:0.9f};".format(indent, tree_.value[node]))
 
 We are getting array, for example ```[[21. 3. 15.]]```
 
-What it means?
+What does it means?
 
 It means, that in current node 'i', we have 21 object of class 0, 3 objects of class 1 and 15 objects of class 2, 
 which hit or splitted by this node.
